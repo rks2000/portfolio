@@ -4860,3 +4860,8 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	}
 
 }
+
+.small-svg {
+	width: 150px; /* Adjust the width as needed */
+	height: auto; /* Maintain aspect ratio */
+}
