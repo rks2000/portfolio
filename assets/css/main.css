@@ -3904,7 +3904,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 /* Main */
 
 #main {
-	background-color: #ffffff;
+	background-color: #ffffffe0;
 	position: relative;
 	margin: 0 auto;
 	width: calc(100% - 4rem);
@@ -4887,7 +4887,8 @@ body {
 	margin: 4em auto;
 	position: relative;
 	max-width: 46em;
-	list-style-type: none; /* Remove default bullet points */
+	list-style-type: none;
+	/* Remove default bullet points */
 }
 
 .timeline:before {
@@ -4910,7 +4911,8 @@ body {
 	-ms-transform: rotate(-45deg);
 	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-	background-color: #a83279;
+	background-color: #fa6cc1;
+	outline: 3px solid #a83279;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
@@ -4953,8 +4955,8 @@ body {
 	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
-	background-color: black;
-	outline: 10px solid white;
+	background-color: #a83279;
+	/* outline: 3px solid black; */
 	display: block;
 	margin: 0.5em 0.5em 0.5em -0.5em;
 	position: absolute;
