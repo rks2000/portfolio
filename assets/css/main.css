@@ -440,10 +440,12 @@ hr {
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
+	margin: 0 -1.5rem;	/* Adjust margin for better alignment */
 }
 
 .row>* {
 	box-sizing: border-box;
+	padding: 0 1.5rem;	/* Adjust padding for better spacing */
 }
 
 .row.gtr-uniform>*> :last-child {
@@ -1173,6 +1175,7 @@ hr {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		margin: 0 -1.5rem; /* Adjust margin for better alignment */
 	}
 
 	.row>* {
@@ -1418,6 +1421,7 @@ hr {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		margin: 0 -1.5rem; /* Adjust margin for better alignment */
 	}
 
 	.row>* {
@@ -1663,6 +1667,7 @@ hr {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		margin: 0 -1.5rem; /* Adjust margin for better alignment */
 	}
 
 	.row>* {
@@ -1908,6 +1913,7 @@ hr {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		margin: 0 -1.5rem; /* Adjust margin for better alignment */
 	}
 
 	.row>* {
@@ -4862,7 +4868,14 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 	height: auto;
 	/* Maintain aspect ratio */
 }
-
+@media screen and (max-width: 720px) {
+	.small-svg {
+		width: 80px;
+		/* Adjust the width as needed */
+		height: auto;
+		/* Maintain aspect ratio */
+	}
+}
 /* Variables */
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
