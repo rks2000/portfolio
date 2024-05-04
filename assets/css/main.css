@@ -3910,7 +3910,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 /* Main */
 
 #main {
-	background-color: #ffffffe0;
+	background-color: #ffffff;
 	position: relative;
 	margin: 0 auto;
 	width: calc(100% - 4rem);
@@ -4863,19 +4863,12 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 }
 
 .small-svg {
-	width: 150px;
+	width: 15%;
 	/* Adjust the width as needed */
 	height: auto;
 	/* Maintain aspect ratio */
 }
-@media screen and (max-width: 720px) {
-	.small-svg {
-		width: 80px;
-		/* Adjust the width as needed */
-		height: auto;
-		/* Maintain aspect ratio */
-	}
-}
+
 /* Variables */
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
